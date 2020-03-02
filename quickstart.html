@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+   <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- generics -->
+		<link rel="icon" href="/img/favicon/favicon-32.png" sizes="32x32">
+		<link rel="icon" href="/img/favicon/favicon-57.png" sizes="57x57">
+		<link rel="icon" href="/img/favicon/favicon-76.png" sizes="76x76">
+		<link rel="icon" href="/img/favicon/favicon-96.png" sizes="96x96">
+		<link rel="icon" href="/img/favicon/favicon-128.png" sizes="128x128">
+		<link rel="icon" href="/img/favicon/favicon-192.png" sizes="192x192">
+		<link rel="icon" href="/img/favicon/favicon-228.png" sizes="228x228">
+		
+		<!-- Android -->
+		<link rel="shortcut icon" sizes="196x196" href=“/img/favicon/favicon-196.png">
+		
+		<!-- iOS -->
+		<link rel="apple-touch-icon" href="/img/favicon/favicon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="/img/favicon/favicon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="/img/favicon/favicon-180.png" sizes="180x180">
+		
+		<!-- Windows 8 IE 10-->
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="/img/favicon/favicon-144.png">
+		
+		<!— Windows 8.1 + IE11 and above —>
+		<meta name="msapplication-config" content="/img/favicon/browserconfig.xml" />
+        <title>ETF Heatmap</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu" id="mainNav">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+								<li class="nav-item"><a class="nav-link" href="index.html#feature">FEATURES</a></li>
+								<li class="nav-item"><a class="nav-link" href="index.html#screen">SCREENS</a></li>
+								<li class="nav-item"><a class="nav-link" href="quickstart.html">Quick Start</a></li>
+							</ul>
+						</div>
+					</div>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>Quick Start</h2>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        
+        <!-- Start Sample Area -->
+			<section class="sample-text-area">
+				<div class="container">
+					<p class="sample-text">
+					<h1>Initial Setup</h1>
+					<p>The app automatically sets up its database the first time it is run. Once this is complete, typically about 15-30 seconds, the launch screen disappears and the app is ready to use.</p>
+					<p>While sample data is included, you'll probably want to update to current prices for maximum utility. The home screen will show a prominent reminder to setup a Tiingo API token needed to update price and performance data.</p>
+					<h1>Updating Prices and Performance Data</h1>
+					<p>The app does not directly provide pricing data. Instead, it retrieves it from Tiingo on your behalf.</p>
+					<p>Only end-of-day prices are used so nothing will be updated intraday. Instead, wait until Tiingo makes them available at 5:30pm Eastern but verify with their official documentation from time to time.</p>
+					<h2>Setting up a Tiingo API Token</h2>
+					<ol>
+						<li>If you're not already a Tiingo user, <a href="https://api.tiingo.com/">sign up</a> for a free account</li>
+						<li><a href="https://api.tiingo.com/">Login</a> to your Tiingo API account on your iPhone or iPad, follow their directions for getting your API token, and copy it to your device's clipboard</li>
+						<li>Open ETF Heatmap and go to the Update Prices screen by tapping the reminder message or the download button at the top of the home screen</li>
+						<li>Paste your API token into the "Tiingo API Token" field</li>
+						<li>Tap the "Test Connection and Save" button to check your credentials
+							<ul>
+								<li>A green check mark will appear if the test is successful. You're good to go!</li>
+								<li>A red x mark will appear if the test is unsuccessful. Paste your API token into the Notes app and ensure it is accurate.</li>
+							</ul>
+						</li>
+					</ol>
+					<h2>Updating Prices</h2>
+					<p>After a successful connection test, the "Update Prices" button will become available. Tap this button to update the prices directly from Tiingo. This process typically takes 30 to 60 seconds depending on the quality of the Internet connection.</p>
+					<h2>Failed Updates</h2>
+					<p>Price updates can fail from time to time. A "Show errors" button will appear when this happens to provide you with more context. Typical errors include:</p>
+					<ul>
+					<li>Internet access is unavailable or with a degraded connection</li>
+					<li>Exceeding Tiingo's usage limits. Login to your Tiingo account to confirm this and wait one hour for the quota to reset before trying again.</li>
+					</ul>
+					<p>If updates have partially succeeded, a "Catch Up Old Prices" button will appear. Tap this to download only the prices that failed to update.</p>
+					<h1>Customization and Convenience Features</h1>
+					<p>Icons on the list detail screen provide customization options to enhance your experience</p>
+					<h2>Compact Mode</h2>
+					<p>Tap the Expand icon to toggle between Compact and Expanded mode. Compact mode omits ETF descriptions in order to show more ETFs on the screen. This preference persists as you navigate to other lists.</p>
+					<h2>Compare to Benchmark</h2>
+					<p>By default, lists display the ETFs' nominal performance over time. Tap the "B" icon to toggle the display of the ETFs' performance relative to the list's benchmark. This preference persists as you navigate to other lists.</p>
+					<h2>Favorites</h2>
+					<p>Favorites allow you to increase the visibility of favorite ETFs, filter lists, and show a Favorites list on the home screen.</p>
+					<h3>Toggle an ETF's Favorite status</h3>
+					<p>On iOS (and iPadOS in split screen mode), mark and unmark favorites by navigating to a list, long pressing an ETF, and tapping the Favorite button in the context menu.</p>
+					<p>On iPadOS, tap the favorite icon at the right edge of the list row.</p> 
+					<p>Alternatively, tap on the ETF to navigate to the ETF detail view. Tap the favorite icon at the top right edge of the screen to toggle its Favorite status.</p>
+					<h3>Filtering for Favorites</h3>
+					<p>Tap the Favorite icon to toggle between showing only Favorites and showing all ETFs. This preference persists as you navigate to other lists.</p>
+					<p>Tap the Favorite icon to toggle between showing only Favorites and showing all ETFs. This preference persists as you navigate to other lists.</p>					
+					<h2>Quick List Navigation</h2>
+					<p>After opening a list, tap the list name in the navigation bar to quickly navigate to another list</p>
+				
+				</div>
+			</section>
+			<!-- End Sample Area -->
+        
+         <!--================ start footer Area  =================-->
+        <footer class="footer-area p_120">
+            <div class="container">
+                <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                    <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+
+                    <div>
+                    <a href="contacts.html">Contact</a> | 
+                    <a href="privacypolicy.html">Privacy Policy</a>
+                    </div>
+
+<!--
+                    <div class="col-lg-4 col-md-4 footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+-->
+                </div>
+            </div>
+        </footer>
+		<!--================ End footer Area  =================-->
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/jquery-ui/jquery-ui.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>
